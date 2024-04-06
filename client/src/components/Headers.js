@@ -19,7 +19,7 @@ const Headers = () => {
             >
               Register
             </NavLink>
-            <img src="/logo192.png" style={{ width: 50 }} alt="" />
+            <img src="/Santoshportfolio.jpg" style={{ width: 50, borderRadius: "50%"}} alt="" />
           </Nav>
         </Container>
       </Navbar>
