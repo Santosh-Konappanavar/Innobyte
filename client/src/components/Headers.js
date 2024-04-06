@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Headers = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="secondary" variant="dark">
         <Container>
           <NavLink to="/" className=" text-light text-decoration-none">
             InnoByte
