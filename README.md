@@ -28,7 +28,7 @@ The Innobyte application allows users to sign up or log in using a one-time pass
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [GigSearch Backend] <a name="about-project"></a> <a name="about-project"></a>
+# 📖 [Innobyte Backend] <a name="about-project"></a> <a name="about-project"></a>
 
 **Innobyte Backend**
 
@@ -107,9 +107,9 @@ nodemon app.js or npm start
 npm start
 ```
 
-# 📖 [GigSearch Front-End] <a name="about-project"></a> <a name="about-project"></a>
+# 📖 [Innobyte Front-End] <a name="about-project"></a> <a name="about-project"></a>
 
-<b>TODO LIST</b> is a website where users can create, update and delete the task . The user can also see the details of a task.
+<b>INNOBYTE</b> The Innobyte application allows users to sign up or log in using a one-time password (OTP) for managing users in the backend authentication system.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -120,6 +120,7 @@ npm start
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li>Redux</li>
+    <li>Boostrap</li>
     <li>CSS</li>
   </ul>
 </details>
