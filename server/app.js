@@ -1,5 +1,7 @@
 require("dotenv").config();
 const express = require("express");
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swagger');
 const app = express();
 const cors = require("cors");
 require("./db/conn");
@@ -11,6 +13,8 @@ app.use(express.json());
 
 // to avoid the cores error
 app.use(cors());
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use(router);
 

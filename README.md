@@ -80,7 +80,6 @@ cd server
 
 npm init -y
 
-node app.js or nodemon
 
 ```
 
@@ -99,12 +98,16 @@ Install this project with the following:
 
 ```sh
 nodemon app.js or npm start
+
+http://localhost:1080/
 ```
 
 - Start the client
 
 ```sh
 npm start
+
+http://localhost:3000/
 ```
 
 # 📖 [Innobyte Front-End] <a name="about-project"></a> <a name="about-project"></a>
@@ -191,6 +194,14 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## API Documentation 
+- to check the Api-docs
+- http://localhost:1080/api-docs/
+
+<p align="right">(<a href="#api-docs">back to top</a>)</p>
+
 
 <!-- AUTHORS -->
 
